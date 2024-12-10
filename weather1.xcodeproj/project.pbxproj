@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6455906A2D0709210072DED8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 645590692D0709210072DED8 /* Alamofire */; };
+		6455907E2D0833C90072DED8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6455907D2D0833C00072DED8 /* .gitignore */; };
+		645590802D0833EF0072DED8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6455907F2D0833E70072DED8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		645590152D06F76A0072DED8 /* weather1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weather1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		645590252D06F76F0072DED8 /* weather1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weather1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6455902F2D06F76F0072DED8 /* weather1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weather1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6455907D2D0833C00072DED8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6455907F2D0833E70072DED8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +84,8 @@
 		6455900C2D06F76A0072DED8 = {
 			isa = PBXGroup;
 			children = (
+				6455907D2D0833C00072DED8 /* .gitignore */,
+				6455907F2D0833E70072DED8 /* README.md */,
 				645590172D06F76A0072DED8 /* weather1 */,
 				645590282D06F76F0072DED8 /* weather1Tests */,
 				645590322D06F76F0072DED8 /* weather1UITests */,
@@ -221,6 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6455907E2D0833C90072DED8 /* .gitignore in Resources */,
+				645590802D0833EF0072DED8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
